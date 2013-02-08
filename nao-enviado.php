@@ -20,8 +20,9 @@
 		<article id="container" class="container_12">
 			<?php include 'header-destaque.php'; ?>			
 			<section id="enviado" class="red_line_top clearfix">
-				<div class="grid_12 well">
-					Sua mensagem foi enviada com sucesso!
+				<div class="grid_12">
+					<div class="well">Sua mensagem não foi enviada.</div>
+					<a href="contato.php" title="Voltar para contato" class="btn btn-primary row_20">Volte e tente novamente</a>
 				</div>
 			</section>
 			<?php include 'footer.php'; ?>

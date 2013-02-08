@@ -28,27 +28,27 @@
 					<form id="contato_form" action="enviar.php" method="post" class="row_20 gama">
 						<span class="row_10 assunto">
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
-							<select name="select_assunto" id="select_assunto" autofocus>
-								<option value="#">Selecione um assunto</option>
+							<select name="select_assunto" id="select_assunto" autofocus required>
+								<option value="">Selecione um assunto</option>
 								<option value="Contato">Contato</option>
 								<option value="Orçamento">Orçamento</option>
-							</select>
+							</select> <b class="red">*</b>
 						</span>
 						<span class="row_10 nome">
 							<label for="nome_completo">Nome completo</label>
-							<input class="input-xlarge" type="text" name="nome_completo" id="nome_completo" title="Digite seu nome completo" placeholder="" /> <b class="red">*</b>
+							<input class="input-xlarge" type="text" name="nome_completo" id="nome_completo" title="Digite seu nome completo" placeholder="" required /> <b class="red">*</b>
 						</span>
 						<span class="row_10 telefone">
 							<label for="telefone">Telefone</label>
-							<input class="input-xlarge" type="text" name="telefone" id="telefone" title="Digite seu telefone" placeholder="(00) 0000-0000" /> 
+							<input class="input-xlarge" type="tel" name="telefone" id="telefone" title="Digite seu telefone" placeholder="(00) 0000-0000" /> 
 						</span>
 						<span class="row_10 nome">
 							<label for="email">E-mail</label>
-							<input class="input-xlarge" type="text" name="email" id="email" title="Digite seu e-mail" placeholder="" /> <b class="red">*</b>
+							<input class="input-xlarge" type="email" name="email" id="email" title="Digite seu e-mail" placeholder="" required /> <b class="red">*</b>
 						</span>
 						<span class="row_10 mensagem">
 							<label for="mensagem">Mensagem:</label>
-							<textarea class="input-xlarge" name="mensagem" id="mensagem" placeholder="Digite sua mensagem"></textarea> <b class="red">*</b>
+							<textarea class="input-xlarge" name="mensagem" id="mensagem" placeholder="Digite sua mensagem" required></textarea> <b class="red">*</b>
 						</span>
 						<span class="row_10 enviar">
 							<input type="submit" class="btn btn-primary input-xlarge row_10 gama" value="Enviar" />
@@ -57,7 +57,7 @@
 					<!-- FIM DO FORMULÁRIO DE CONTATO -->
 				</div>
 				<div class="grid_6">
-						
+					
 				</div>
 			</section>
 			<?php include 'footer.php'; ?>

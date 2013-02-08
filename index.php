@@ -21,19 +21,19 @@
 			<?php include 'header-destaque.php'; ?>
 			<div id="bracos" class="red_line_top clearfix">
 				<div class="grid_4">
-					<h1>Escritório / Papelaria</h2>
+					<h1>Escritório / Papelaria</h1>
 					<h3>Mala direta, cópias, encardenação</h3>
 					<p>Aqui você encontra um ambiente profissional para trabalhar com tranquilidade, computadores com acesso a internet e outros serviços. Também temos produtos de papelaria.</p>
 					<a href="escritorio.php" class="btn btn-primary" title="Escritório / Papelaria">Ver mais</a>
 				</div>
 				<div class="grid_4">
-						<h1>Postagem / Remessas</h2>
+						<h1>Postagem / Remessas</h1>
 						<h3>Nacionais e internacionais</h3>
 					<p>Especialistas em envios, a Postnet pode te ajudar a encontrar a melhor opção de prazo e preço para suas remessas nacionais ou internacionais, tudo com segurança e agilidade.</p>
 					<a href="postagem.php" class="btn btn-primary" title="Postagem / Remessas">Ver mais</a>
 				</div>
 				<div class="grid_4">
-					<h1>Gráfica / Design Gráfico</h2>
+					<h1>Gráfica / Design Gráfico</h1>
 					<h3>Cartões de visita, folders, criação</h3>
 					<p>Na Postnet você pode contar com equipamentos de qualidade e com uma equipe especializada em produção gráfica  pronta para te ajudar e te indicar o melhor processo gráfico para seu trabalho.</p>
 					<a href="grafica.php" class="btn btn-primary" title="Impressão / Design Gráfico">Ver mais</a>

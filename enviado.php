@@ -19,7 +19,7 @@
 		<!-- Início de #container -->
 		<div id="container" class="container_12">
 			<?php include 'header-destaque.php'; ?>
-			<article id="enviado" class="red_line_top clearfix">
+			<article class="red_line_top clearfix">
 				<section class="row_20 gama grid_12">
 					<div class="well clearfix">
 						<span>Sua mensagem foi enviada com sucesso!</span>

@@ -20,7 +20,7 @@
 		<article id="container" class="container_12">
 			<?php include 'header-destaque.php'; ?>
 			<section id="section_escritorio" class="red_line_top clearfix">
-				<div class="grid_12">
+				<div class="grid_6">
 					<h1>Gráfica / Design gráfico</h2>
 					<h3>Nós também entendemos disso</h3>
 					<p>Na Postnet você pode contar com equipamentos de qualidade e com uma equipe especializada em produção gráfica  pronta para te ajudar e te indicar o melhor processo gráfico para seu trabalho.</p>
@@ -36,6 +36,7 @@
 					- Acabamentos especiais <br />
 					- Laminação</p>
 				</div>
+				<div class="grid_6"></div>
 			</section>
 			<?php include 'footer.php'; ?>
 		</article> <!-- Fim de #container -->

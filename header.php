@@ -13,7 +13,7 @@
 			<h3 class="menu_title">Entre em contato com a PostNet</h3>
 			<ul>
 				<li><a href="contato.php" title="Fale conosco">Fale conosco</a></li>
-				<li>• <a href="como-chegar.php" title="Como chegar">Como chegar</a></li>
+				<li>• <a href="contato.php" title="Como chegar">Como chegar</a></li>
 				<li>• <a href="sobre-nos.php" title="Sobre nós">Sobre nós</a></li>
 			</ul>
 		</nav>

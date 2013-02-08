@@ -5,15 +5,7 @@
 	<title>PostNet Curitiba</title>
 </head>
 <body>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	
+	<?php include 'before-content.php';?>
 	<div id="main" class="clearfix">
 		<?php include 'header.php'; ?>
 		<!-- Início de #container -->
@@ -32,8 +24,9 @@
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
 							<select name="select_assunto" id="select_assunto" class="input-xlarge" required>
 								<option value="">Selecione um assunto</option>
-								<option value="orcamento">Orçamanto</option>
+								<option value="orcamento">Orçamento</option>
 								<option value="pedido">Pedido</option>
+								<option value="duvida">Dúvida</option>
 								<option value="outro">Outro</option>
 							</select> <b class="red">*</b>
 						</span>

@@ -5,15 +5,7 @@
 	<title>PostNet Curitiba</title>
 </head>
 <body>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	
+	<?php include 'before-content.php';?>
 	<div id="main" class="clearfix">
 		<?php include 'header.php'; ?>
 		<!-- Início de #container -->
@@ -34,7 +26,8 @@
 					- Pastas <br />
 					- Convites/Lembranças personalizadas (casamento, formatura, aniversário, datas especiais entre outros) <br />
 					- Acabamentos especiais <br />
-					- Laminação</p>
+					- Laminação <br />
+					<a href="contato.php" class="btn btn-primary row_20 gama">Solicite um orçamento!</a></p>
 				</div>
 				<div class="grid_6"></div>
 			</section>

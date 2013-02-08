@@ -3,7 +3,7 @@
 		<p><b class="red">Postnet Curitiba</b> <br />
 		Rua Visconde de Nacar, 1505 lj 2 - Centro - Curitiba - PR - (41) 3044 2728</p>
 		
-		<div class="fb-like row_10" data-send="true" data-width="450" data-show-faces="true"></div>
+		<div class="fb-like" data-href="https://www.facebook.com/postnet.curitiba" data-send="false" data-width="450" data-show-faces="true"></div>
 	
 	</div>
 	<div id="logos_parceiros" class="grid_6 omega">

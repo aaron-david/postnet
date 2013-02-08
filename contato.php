@@ -28,10 +28,11 @@
 					<form id="contato_form" action="enviar.php" method="post" class="row_20 gama">
 						<span class="row_10 assunto">
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
-							<select name="select_assunto" id="select_assunto" autofocus required>
+							<select name="select_assunto" id="select_assunto" required>
 								<option value="">Selecione um assunto</option>
-								<option value="Contato">Contato</option>
-								<option value="Orçamento">Orçamento</option>
+								<option value="orcamento">Orçamanto</option>
+								<option value="pedido">Pedido</option>
+								<option value="outro">Outro</option>
 							</select> <b class="red">*</b>
 						</span>
 						<span class="row_10 nome">

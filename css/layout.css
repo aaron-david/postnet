@@ -1,0 +1,76 @@
+/* Header
+*/
+
+header {
+	background: #eb2323;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViMjMyMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYjFlMWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #eb2323 0%, #cb1e1e 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eb2323), color-stop(100%,#cb1e1e));
+	background: -webkit-linear-gradient(top,  #eb2323 0%,#cb1e1e 100%);
+	background: -o-linear-gradient(top,  #eb2323 0%,#cb1e1e 100%);
+	background: -ms-linear-gradient(top,  #eb2323 0%,#cb1e1e 100%);
+	background: linear-gradient(to bottom,  #eb2323 0%,#cb1e1e 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eb2323', endColorstr='#cb1e1e',GradientType=0 );
+	
+	color: #fff;
+}
+
+header .menu,
+header .menu li,
+#logo_postnet { float: left; }
+
+#logo_postnet a { display: block; overflow: hidden; width: 220px; height: 60px; text-indent: -999em; background: url(../images/logo-postnet.png);  }
+
+header h3, header a { color: #fff; }
+
+header .menu { margin-left: 60px; }
+
+header .menu li { color: #fcc; font-size: 1em; margin-right: .4em; line-height: 1.5em; }
+
+header .menu li a { color: #fff; text-decoration: none; }
+
+header .menu li a:hover { text-decoration: underline; }
+
+/* Home - Header destaque
+*/
+
+#header_destaque { height: 96px; display: block; overflow: hidden; background: url(../images/header-destaque.png) top; }
+
+#header_destaque p { color: #777; font-size: 1.1em; line-height: 1.5em; margin: 8px 10px; }
+
+#header_destaque p strong { font-size: 1.1em; }
+
+/* Braços da PostNet
+*/
+
+#bracos { margin-bottom: 40px; }
+
+/* Home - Lista de serviços
+*/
+
+#container #lista_servicos { margin-top: 10px; }
+
+#container #lista_servicos li { float: left; width: 205px; font-size: .8em; line-height: 1.5em; }
+
+/* Home - Fale com a PostNet
+*/
+
+#fale_com .button { width: 87px; height: 103px; float: left; margin: 10px 10px 0 0; display: block; overflow: hidden; text-indent: -999em; }
+
+#fale_com .button.escreva { background: url(../images/button-escreva.png); }
+
+#fale_com .button.ligue { background: url(../images/button-ligue.png); }
+
+#fale_com .button.como_chegar { background: url(../images/button-como-chegar.png); }
+
+/* Footer
+*/
+
+footer { margin-top: 20px; padding-top: 10px; }
+
+footer p { font-size: 1em; color: #666; }
+
+footer #logos_parceiros small { font-size: .6em; color: #999; display: block; margin-bottom: 10px; }
+
+
+

@@ -26,7 +26,7 @@
 				</div>
 				<div class="grid_4">
 					<h1>Escritório / Papelaria</h1>
-					<h3>Cópias colorida e PB, carimbos</h3>
+					<h3>Carimbos, cópias em colorido e PB</h3>
 					<p>Aqui você encontra um ambiente profissional para trabalhar com tranquilidade, computadores com acesso a internet e outros serviços. Também temos produtos de papelaria.</p>
 					<a href="escritorio.php" class="btn btn-primary" title="Escritório / Papelaria">Ver mais</a>
 				</div>

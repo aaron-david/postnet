@@ -6,7 +6,7 @@ $email = $_POST[email];
 $mensagem = $_POST[mensagem];
 
 // multiple recipients
-$to  = 'aaron.dsgn@gmail.com';
+$to  = 'postnet.curitiba@gmail.com';
 // subject
 $subject = $assunto;
 
@@ -48,8 +48,8 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
 // Additional headers
-$headers .= 'To: Mary <aaron.dsgn@gmail.com>' . "\r\n";
-$headers .= 'From: PostNet Curitiba <aaron.dsgn@gmail.com>' . "\r\n";
+//$headers .= 'To: Mary <postnet.curitiba@gmail.com>' . "\r\n";
+//$headers .= 'From: PostNet Curitiba <postnet.curitiba@gmail.com>' . "\r\n";
 //$headers .= 'Cc: birthdayarchive@example.com' . "\r\n";
 //$headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
 

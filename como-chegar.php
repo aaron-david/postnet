@@ -5,7 +5,7 @@
 	<script type="text/javascript">
 
 	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-38341115-5']);
+	  _gaq.push(['_setAccount', 'UA-38341115-6']);
 	  _gaq.push(['_trackPageview']);
 
 	  (function() {
@@ -15,7 +15,7 @@
 	  })();
 
 	</script>
-	<title>PostNet Curitiba - Fale conosco</title>
+	<title>PostNet Curitiba - Como chegar</title>
 </head>
 <body>
 	<?php include 'before-content.php';?>
@@ -25,17 +25,21 @@
 		<article id="container" class="container_12">
 			<?php include 'header-destaque.php'; ?>			
 			<section class="red_line_top clearfix">
-				<div class="grid_12">
-					<h1>Fale conosco, estamos sempre ao seu dispor</h2>
-					<h3>Solicite orçamento ou tire suas dúvidas por aqui</h3>
+				<div class="grid_12 row_10 beta">
+					<h1>Como chegar na Postnet Curitiba</h2>
 				</div>
-				<div class="grid_6">
+					<div class="grid_8">
+						<iframe width="620" height="460" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?q=Rua+Visconde+de+Nacar,+1505&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Visc.+de+Nacar,+1505+-+Centro,+Curitiba+-+Paran%C3%A1,+80410-201&amp;gl=br&amp;t=m&amp;ll=-25.431881,-49.275999&amp;spn=0.019378,0.040298&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br />
+						<small><a href="https://maps.google.com.br/maps?q=Rua+Visconde+de+Nacar,+1505&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Visc.+de+Nacar,+1505+-+Centro,+Curitiba+-+Paran%C3%A1,+80410-201&amp;gl=br&amp;t=m&amp;ll=-25.431881,-49.275999&amp;spn=0.019378,0.040298&amp;z=15&amp;iwloc=A&amp;source=embed" class="pull-left" target="_blank">Exibir mapa ampliado</a></small>
+					</div>
+				<div class="red_line_top grid_4">
+					<h1>Escreva para nós!</h1>
 					<small><em>Os campos indicados com (<b class="red">*</b>), são obrigatórios.</em></small>
 					<!-- FORMULÁRIO DE CONTATO -->
 					<form id="contato_form" action="enviar.php" method="post" class="row_20 gama">
 						<span class=" assunto">
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
-							<select name="select_assunto" id="select_assunto" class="input-xlarge" autofocus required>
+							<select name="select_assunto" id="select_assunto" class="input-xlarge" required>
 								<option value="">Selecione um assunto</option>
 								<option value="orcamento">Orçamento</option>
 								<option value="pedido">Pedido</option>
@@ -64,11 +68,6 @@
 						</span>
 					</form>
 					<!-- FIM DO FORMULÁRIO DE CONTATO -->
-				</div>
-				<div id="contato_box" class="bg light_gray_line_top grid_6">
-					<a class="row_10 link_icon" href="sobre-nos.php"><i class="icon_doc"></i>Sobre a Postnet Curitiba</a>
-					<a class="row_10 link_icon" href="como-chegar.php"><i class="icon_mundo"></i>Como chegar?</a>
-					<a class="row_10 link_icon" href="https://www.facebook.com/postnet.curitiba" target="_blank"><i class="icon_facebook"></i>Curta nossa página no Facebook</a>
 				</div>
 			</section>
 			<?php include 'footer.php'; ?>

@@ -63,6 +63,24 @@ header .menu li a:hover { text-decoration: underline; }
 
 #fale_com .button.como_chegar { background: url(../images/button-como-chegar.png); }
 
+/* Contato
+*/
+
+#contato_box.bg { min-height: 300px; background: url(../images/contato-bg.png) right bottom no-repeat; }
+
+#contato_box .link_icon { color: #999; text-decoration: none; font-size: 1.2em; }
+
+#contato_box .link_icon:hover { color: #eb2323; }
+
+[class^="icon_"],
+[class*=" icon_"] { display: inline-block; line-height: 30px; width: 30px; height: 30px; vertical-align: middle; background-image: url("../images/sprite.png"); background-repeat: no-repeat; margin-right: 5px; margin-top: -2px; }
+
+.icon_doc { background-position: 0 0; }
+
+.icon_facebook { background-position: 0 -30px; }
+
+.icon_mundo { background-position: 0 -60px; }
+
 /* Footer
 */
 

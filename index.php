@@ -73,7 +73,7 @@
 				<h3>Por telefone, e-mail ou pessoalmente</h3>
 				<a href="contato.php" title="Escreva para nós" class="button escreva">Escreva para nós</a>
 				<a href="contato.php" title="Ligue para nós" class="button ligue">Ligue para (41) 3044 2728</a>
-				<a href="contato.php" title="Veja como chegar" class="button como_chegar">Veja como chegar</a>
+				<a href="como-chegar.php" title="Veja como chegar" class="button como_chegar">Veja como chegar</a>
 			</div>
 			<?php include 'footer.php'; ?>
 		</div> <!-- Fim de #container -->

@@ -6,7 +6,7 @@ $email = $_POST[email];
 $mensagem = $_POST[mensagem];
 
 // multiple recipients
-$to  = 'postnet.curitiba@gmail.com';
+$to  = 'aaron.dsgn@gmail.com';
 // subject
 $subject = $assunto;
 
@@ -39,17 +39,13 @@ $message = "
 </html>
 ";
 
-/* Atenção se você pretende inserir numa variável uma mensagem html mais
- complexa do que essa sem precisar escapar os carateres 
- necessários pode ser feito o uso da sintaxe heredoc, consulte tipos-string-sintaxe-heredoc */
-
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
 // Additional headers
-//$headers .= 'To: Mary <postnet.curitiba@gmail.com>' . "\r\n";
-//$headers .= 'From: PostNet Curitiba <postnet.curitiba@gmail.com>' . "\r\n";
+//$headers .= 'To: Mary <aaron.dsgn@gmail.com>' . "\r\n";
+//$headers .= 'From: PostNet Curitiba <aaron.dsgn@gmail.com>' . "\r\n";
 //$headers .= 'Cc: birthdayarchive@example.com' . "\r\n";
 //$headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
 

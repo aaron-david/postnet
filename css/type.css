@@ -1,19 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin-ext,latin);
 
-body { font-family: 'Helvetica Neue', 'Helvetica', Arial, Verdana, sans-serif; color: #555; }
+body { font-family: Arial, Helvetica, Verdana, sans-serif; font-style: normal; font-weight: none; color: #555; }
 
 /* Titles
 */
 
-h1, h2, h3, h4, h5, h6, #header_destaque, #contato_box a, footer p { font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif; line-height: normal; }
+h1, h2, h3, h4, h5, h6, #header_destaque, #contato_box a, footer p { font-family: 'Open Sans Condensed', 'Arial Narrow', Helvetica, Arial, sans-serif; line-height: normal; }
 
-h1, h2 { color: #d92121; }
+h1, h2 { 
+	color: #d92121; 
+	font: 1.7em 'Arial Narrow', Helvetica, Arial, sans-serif;
+	font: 1.7em 'Open Sans Condensed'; 
+}
 
-h3, h4, h5, h6 { color: #777; }
-
-h1 { font-size: 1.7em; }
-
-h3 { font-size: 1.2em; }
+h3, h4 { 
+	color: #777; 
+	font: 1.2em 'Arial Narrow', Helvetica, Arial, sans-serif;
+	font: 1.2em 'Open Sans Condensed'; 
+}
 
 /* Paragraphs
 */

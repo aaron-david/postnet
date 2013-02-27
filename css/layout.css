@@ -81,10 +81,15 @@ header .menu li a:hover { text-decoration: underline; }
 
 .icon_mundo { background-position: 0 -60px; }
 
+/* Gallery
+*/
+
+#gallery figure img { margin-top: 10px; outline: 1px solid #999; }
+
 /* Footer
 */
 
-footer { margin-top: 20px; padding-top: 10px; }
+footer { margin-top: 20px; margin-bottom: 20px; padding-top: 10px; }
 
 footer p { font-size: 1em; color: #666; }
 

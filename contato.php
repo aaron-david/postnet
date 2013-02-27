@@ -25,15 +25,15 @@
 		<article id="container" class="container_12">
 			<?php include 'header-destaque.php'; ?>			
 			<section class="red_line_top clearfix">
-				<div class="grid_12">
+				<div class="grid_12 row_10 beta">
+					<small class="pull-right"><em>Os campos indicados com (<b class="red">*</b>), são obrigatórios.</em></small>
 					<h1>Fale conosco, estamos sempre ao seu dispor</h2>
 					<h3>Solicite orçamento ou tire suas dúvidas por aqui</h3>
 				</div>
-				<div class="grid_6">
-					<small><em>Os campos indicados com (<b class="red">*</b>), são obrigatórios.</em></small>
+				<div class="grid_6 light_gray_line_top">
 					<!-- FORMULÁRIO DE CONTATO -->
-					<form id="contato_form" action="enviar.php" method="post" class="row_20 gama">
-						<span class=" assunto">
+					<form id="contato_form" action="enviar.php" method="post" class="row_10 gama">
+						<span class="assunto">
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
 							<select name="select_assunto" id="select_assunto" class="input-xlarge" autofocus required>
 								<option value="">Selecione um assunto</option>
@@ -49,7 +49,7 @@
 						</span>
 						<span class=" telefone">
 							<label for="telefone">Telefone:</label>
-							<input class="input-xlarge" type="tel" name="telefone" id="telefone" title="Digite seu telefone" placeholder="(00) 0000-0000" /> 
+							<input class="input-xlarge" type="tel" name="telefone" id="telefone" title="Digite seu telefone" placeholder="" /> 
 						</span>
 						<span class=" email">
 							<label for="email">E-mail:</label>

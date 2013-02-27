@@ -53,7 +53,7 @@
 						</span>
 						<span class=" telefone">
 							<label for="telefone">Telefone:</label>
-							<input class="input-xlarge" type="tel" name="telefone" id="telefone" title="Digite seu telefone" placeholder="(00) 0000-0000" /> 
+							<input class="input-xlarge" type="tel" name="telefone" id="telefone" title="Digite seu telefone" placeholder="" /> 
 						</span>
 						<span class=" email">
 							<label for="email">E-mail:</label>

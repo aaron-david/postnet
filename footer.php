@@ -2,9 +2,11 @@
 	<div class="grid_6 alpha">
 		<p><b class="red">Postnet Curitiba</b> <br />
 		Rua Visconde de Nacar, 1505 lj 2 - Centro - Curitiba - PR - (41) 3044 2728</p>
+		<span class='st_facebook_hcount' displayText='Facebook'></span>
+		<span class='st_twitter_hcount' displayText='Tweet'></span>
 		
 		<div class="fb-like" data-href="https://www.facebook.com/postnet.curitiba" data-send="false" data-width="450" data-show-faces="true"></div>
-	
+		
 	</div>
 	<div id="logos_parceiros" class="grid_6 omega">
 		<small class="clearfix">Serviços de postagem:</small>
@@ -13,4 +15,5 @@
 		<img src="images/parceiro-dhl.png" width="118" height="49" alt="DHL">
 		<img src="images/parceiro-tam-cargo.png" width="102" height="49" alt="TAM Cargos">
 	</div>
+	
 </footer>

@@ -25,10 +25,15 @@
 		<article id="container" class="container_12">
 			<?php include 'header-destaque.php'; ?>
 			<section id="section_escritorio" class="red_line_top clearfix">
-				<div class="grid_6">
+				<div class="grid_12">
 					<h1>Escritório / Papelaria</h2>
+				</div>
+				<div class="grid_6 row_10 pull-left">
+					<a href="contato.php" title="Visite nossa loja!"><img src="images/escritorio.jpg"alt="Escritório"></a>
+				</div>
+				<div class="row_10 pull-left light_gray_line_top grid_6">
 					<h3>Comodidade e versatilidade</h3>
-					<p>Aqui você encontra um ambiente profissional para trabalhar com tranquilidade, com computadores, acesso a internet e outros serviços. Temos também alguns produtos de papelaria que você pode precisar. </p>
+					<p style="text-align: justify">Aqui você encontra um ambiente bom para trabalhar com tranquilidade, com computadores, acesso a internet e outros serviços. Temos também alguns produtos de papelaria que você pode precisar. </p>
 					<p>- Impressão <br />
 					- Encadernação <br />
 					- Capa dura <br />
@@ -38,9 +43,8 @@
 					- Crachás <br />
 					- Carimbos <br />
 					- Placas <br />
-					- Lan House <br />
-					- Internet wi-fi <br />
-					<a href="contato.php" class="btn btn-primary row_20 gama">Visite nossa loja!</a></p>
+					- Lan House / Internet wi-fi <br />
+					<a href="como-chegar.php" class="btn btn-primary row_20 gama">Visite nossa loja!</a></p>
 				</div>
 			</section>
 			<?php include 'footer.php'; ?>

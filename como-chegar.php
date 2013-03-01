@@ -36,7 +36,7 @@
 					<h1>Escreva para nós!</h1>
 					<small><em>Os campos indicados com (<b class="red">*</b>), são obrigatórios.</em></small>
 					<!-- FORMULÁRIO DE CONTATO -->
-					<form id="contato_form" action="enviar.php" method="post" class="row_20 gama">
+					<form id="contato_form" action="envia.php" method="post" class="row_20 gama">
 						<span class=" assunto">
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
 							<select name="select_assunto" id="select_assunto" class="input-xlarge" required>

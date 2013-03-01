@@ -14,6 +14,7 @@
 			<article class="red_line_top clearfix">
 				<section class="row_20 gama grid_12">
 					<div class="well clearfix">
+						<a href="/" title="Tente novamente" class="pull-right btn btn-primary">Ok</a>
 						<span>Sua mensagem foi enviada com sucesso!</span>
 					</div>
 				</section>

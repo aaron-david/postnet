@@ -32,7 +32,7 @@
 				</div>
 				<div class="grid_6 light_gray_line_top">
 					<!-- FORMULÁRIO DE CONTATO -->
-					<form id="contato_form" action="enviar.php" method="post" class="row_10 gama">
+					<form id="contato_form" action="envia.php" method="post" class="row_10 gama">
 						<span class="assunto">
 							<label for="select_assunto">Escolha um assunto para tratar:</label>
 							<select name="select_assunto" id="select_assunto" class="input-xlarge" autofocus required>

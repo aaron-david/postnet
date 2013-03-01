@@ -1,9 +1,9 @@
 <?php
-$assunto = $_POST[select_assunto];
-$nome = $_POST[nome_completo];
-$telefone = $_POST[telefone];
-$email = $_POST[email];
-$mensagem = $_POST[mensagem];
+$assunto = $_POST['select_assunto'];
+$nome = $_POST['nome_completo'];
+$telefone = $_POST['telefone'];
+$email = $_POST['email'];
+$mensagem = $_POST['mensagem'];
 
 // multiple recipients
 $to  = 'aaron.dsgn@gmail.com';
